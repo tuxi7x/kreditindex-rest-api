@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @RestController
 @RequestMapping("/api/v1/calc")
-@CrossOrigin(origins = {"http://localhost:3000", "http://tukszarakos.web.elte.hu"})
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class CalculationController {
 
     private final CalculationService calculationService;
